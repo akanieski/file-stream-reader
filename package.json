@@ -1,0 +1,25 @@
+{
+  "name": "file-stream-reader",
+  "version": "1.0.0",
+  "description": "Open a stream to a given file and read its contents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/akanieski/file-stream-reader.git"
+  },
+  "keywords": [
+    "stream",
+    "file",
+    "file-stream",
+    "reader"
+  ],
+  "author": "Andrew Kanieski <andrew.legacy@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akanieski/file-stream-reader/issues"
+  },
+  "homepage": "https://github.com/akanieski/file-stream-reader#readme"
+}

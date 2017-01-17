@@ -83,7 +83,7 @@ class FileReader {
             if (this.state !== States.OPEN)
                 return reject(new Error("Stream is not open for reading"))
 
-            let buffer = new Buffer(length)
+            let buffer = Buffer.alloc(length)
 
             fs.read(this.fd, buffer, 0, length, this.fileIndex, (err, bytesRead, data) => {
                 if (err) {
